@@ -1,0 +1,57 @@
+body {
+  margin: auto;
+  width: 90%;
+}
+
+h1, h4 {
+  font-weight: lighter;
+  color: #00688B;
+}
+
+
+.FilterTextBox {
+  width: 900px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin: 10px 0, 20px, 10px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+
+
+
+.UserName{
+  font-size: 22px;
+}
+
+.UserEmail{
+  font-size: 15px;
+}
+
+
+.Loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: goRound 1s linear infinite;
+  animation: goRound 1s linear infinite;
+}
+
+@-webkit-keyframes goRound {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes goRound {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
